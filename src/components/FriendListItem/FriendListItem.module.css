@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  padding: 20px 100px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #fafafa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.12);
+    align-items: center;
+}
+
+.status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.true {
+    background-color: green;
+}
+
+.false {
+    background-color: red;
+}
+
+
+.avatar {
+  margin-right: 10px;
+  width: 80px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
